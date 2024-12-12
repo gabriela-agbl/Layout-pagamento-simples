@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+
+<html lang="en"> <!--Simplificação de Digitação-->
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Pagamento</title>
+    <link rel="stylesheet" href="pagamento.css">
+    <script src="pagamento.js" defer></script>
+
+</head>
+
+<body>
+
+    <div class="payment-container">
+
+        <h1>Página de Pagamento</h1>
+        <label for="value">Valor:</label>
+        <input type="number" id="value" placeholder="Digite o valor">
+        
+        <div class="payment-options">
+
+            <input type="radio" id="pix" name="payment" value="pix">
+            <label for="pix">PIX</label>
+            <input type="radio" id="credit-card" name="payment" value="credit-card">
+            <label for="credit-card">Cartão de Crédito</label>
+
+        </div>
+
+        <button id="show-data">Informar dados</button>
+
+        <div id="pix-panel" class="hidden">
+
+            <h2>PIX</h2>
+            <label for="cpf">CPF:</label>
+            <input type="text" id="cpf">
+            <p>Total: <span id="pix-total">R$ 0,00</span></p>
+            <button id="pay-pix">Pagar</button>
+
+        </div>
+
+        <div id="credit-card-panel" class="hidden">
+
+            <h2>Cartão de Crédito</h2>
+            <label for="card-number">Número:</label>
+            <input type="text" id="card-number" placeholder="Digite o número do cartão">
+            <span id="card-icon"></span>
+            <p id="card-error" class="error hidden">Número de cartão inválido</p>
+
+            <label for="cardholder">Titular:</label>
+            <input type="text" id="cardholder">
+
+            <label for="cvv">Cód. Segurança:</label>
+            <input type="text" id="cvv">
+
+            <label for="expiry">Vencimento:</label>
+            <input type="text" id="expiry">
+
+            <label for="installments">Parcelas:</label>
+
+            <select id="installments">
+
+                <option value="1">1x</option>
+                <option value="2">2x</option>
+                <option value="3">3x</option>
+                <option value="4">4x</option>
+                <option value="5">5x</option>
+
+            </select>
+
+            <p>Parcelas: <span id="installment-values">R$ 0,00</span></p>
+            <p>Total: <span id="card-total">R$ 0,00</span></p>
+
+            <button id="pay-card">Pagar</button>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
