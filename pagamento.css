@@ -22,3 +22,20 @@ button {
     margin: 10px 0;
     cursor: pointer;
 }
+
+#credit-card-panel label {
+    display: block; /* Faz o label ocupar a linha inteira */
+    margin-bottom: 5px; /* Adiciona um pequeno espaço abaixo do label */
+}
+
+#credit-card-panel input {
+    width: 100%; /* Faz os campos ocuparem toda a largura disponível */
+    padding: 10px; /* Adiciona padding para os campos */
+    margin-bottom: 10px; /* Adiciona um espaço entre os campos */
+    box-sizing: border-box; /* Garante que o padding não afete a largura */
+}
+
+/* Estilo para o botão */
+#credit-card-panel button {
+    width: 100%; /* Faz o botão ocupar a largura total */
+}
