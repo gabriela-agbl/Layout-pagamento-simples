@@ -65,15 +65,6 @@ button:hover {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-.hidden {
-    display: none;
-}
-
-.error {
-    color: red;
-    font-size: 14px;
-}
-
 #credit-card-panel label {
     display: block; /* Faz o label ocupar a linha inteira */
     margin-bottom: 5px; /* Adiciona um pequeno espaço abaixo do label */
