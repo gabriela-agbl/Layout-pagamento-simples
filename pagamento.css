@@ -10,11 +10,6 @@ h1, h2 {
     color: #2196F3;
 }
 
-.payment-container {
-    max-width: 600px;
-    margin: 0 auto;
-}
-
 .hidden {
     display: none;
 }
