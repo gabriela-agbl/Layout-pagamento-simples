@@ -43,6 +43,10 @@ Você pode visualizar o site de pagamento diretamente [aqui](https://Agbl09.gith
 2. Crie uma nova branch (`git checkout -b minha-feature`).
 3. Faça as alterações e envie um pull request.
 
+## 📊 Status do projeto
+
+Atualmente em desenvolvimento 🟡. Mais recursos serão adicionados em breve!
+
 ## 📜 Licença
 
 Este projeto foi desenvolvido para fins educacionais e está disponível para uso e modificação conforme necessário.
