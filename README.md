@@ -7,7 +7,7 @@ Este é um site de pagamento simples, criado com **HTML**, **CSS** e **JavaScrip
 <div align="center">
 <h2>🌐 Acesse a Página</h2>
 
-Você pode visualizar o site de pagamento diretamente [aqui](https://Agbl09.github.io/Layout-pagamento-simples).
+Você pode visualizar o site de pagamento diretamente [aqui](https://gabriela-agbl.github.io/Layout-pagamento-simples).
 </div>
 
 <div align="center">
@@ -35,7 +35,7 @@ Você pode visualizar o site de pagamento diretamente [aqui](https://Agbl09.gith
 1. Clone este repositório para o seu computador:
 
     ```bash
-    git clone https://github.com/Agbl09/Layout-pagamento-simples.git
+    git clone https://github.com/gabriela-agbl/Layout-pagamento-simples.git
     ```
 
 2. Abra o arquivo `index.html` no seu navegador para visualizar a página. 🌐
@@ -66,6 +66,6 @@ Atualmente em desenvolvimento 🟡. Mais recursos serão adicionados em breve!
 
 Este projeto foi desenvolvido para fins educacionais e está disponível para uso e modificação conforme necessário.
 
-Feito por [Gabriela Rodrigues](https://github.com/Agbl09)
+Feito por [Gabriela Rodrigues](https://github.com/gabriela-agbl)
 
 </div>
